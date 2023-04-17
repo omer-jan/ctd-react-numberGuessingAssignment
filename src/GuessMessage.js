@@ -1,5 +1,5 @@
 function getGuessMessage(guess, numberToGuess) {
-  const distanceApart = Math.abs(numberToGuess - guess);
+  const distanceApart = Math.abs(numberToGuess - guess); 
   if (guess < numberToGuess) {
     if (distanceApart > 10) {
       return "Your guess was well below the number.";
